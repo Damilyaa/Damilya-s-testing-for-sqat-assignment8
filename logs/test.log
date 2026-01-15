@@ -1,0 +1,26 @@
+2026-01-15 13:01:48 INFO  base.BaseTest - Setting up WebDriver
+2026-01-15 13:01:51 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-15 13:01:56 INFO  tests.forms.CheckBoxTest - Test starting: testCheckBox
+2026-01-15 13:01:56 INFO  pages.HomePage - Navigating to Forms page
+2026-01-15 13:01:56 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-15 13:01:56 INFO  tests.forms.CheckBoxTest - Navigating to Web Tables page
+2026-01-15 13:01:56 INFO  tests.forms.CheckBoxTest - Selecting hobbies
+2026-01-15 13:01:56 INFO  pages.forms.PracticeFormPage - Clicking 'Sports' checkbox
+2026-01-15 13:01:56 INFO  tests.forms.CheckBoxTest - Clicking 'Sports checkbox'
+2026-01-15 13:01:56 INFO  pages.forms.PracticeFormPage - Clicking 'Reading' checkbox
+2026-01-15 13:01:56 INFO  tests.forms.CheckBoxTest - Clicking 'Reading checkbox'
+2026-01-15 13:01:56 INFO  pages.forms.PracticeFormPage - Clicking 'Music' checkbox
+2026-01-15 13:01:56 INFO  tests.forms.CheckBoxTest - Clicking 'Music checkbox'
+2026-01-15 13:01:56 INFO  pages.forms.PracticeFormPage - Unclicking 'Reading' checkbox
+2026-01-15 13:01:56 INFO  tests.forms.CheckBoxTest - Unclicking 'Reading checkbox'
+2026-01-15 13:01:57 INFO  base.BaseTest - Closing browser
+2026-01-15 13:02:00 INFO  base.BaseTest - Setting up WebDriver
+2026-01-15 13:02:01 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-15 13:02:17 INFO  tests.forms.RadioButtonTest - Test starting: testRadioButton
+2026-01-15 13:02:17 INFO  pages.HomePage - Navigating to Forms page
+2026-01-15 13:02:17 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-15 13:02:17 INFO  tests.forms.RadioButtonTest - Navigating to Web Tables page
+2026-01-15 13:02:17 INFO  pages.forms.PracticeFormPage - Clicking female radio button
+2026-01-15 13:02:17 INFO  tests.forms.RadioButtonTest - Clicking Female radio button
+2026-01-15 13:02:17 INFO  tests.forms.RadioButtonTest - Assertion passed
+2026-01-15 13:02:17 INFO  base.BaseTest - Closing browser
