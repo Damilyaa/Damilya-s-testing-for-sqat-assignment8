@@ -24,3 +24,264 @@
 2026-01-15 13:02:17 INFO  tests.forms.RadioButtonTest - Clicking Female radio button
 2026-01-15 13:02:17 INFO  tests.forms.RadioButtonTest - Assertion passed
 2026-01-15 13:02:17 INFO  base.BaseTest - Closing browser
+2026-01-17 11:09:34 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:09:44 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:09:50 INFO  tests.forms.CheckBoxTest - Test starting: testCheckBox
+2026-01-17 11:09:50 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:09:50 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-17 11:09:50 INFO  tests.forms.CheckBoxTest - Navigating to Web Tables page
+2026-01-17 11:09:50 INFO  tests.forms.CheckBoxTest - Selecting hobbies
+2026-01-17 11:09:50 INFO  pages.forms.PracticeFormPage - Clicking 'Sports' checkbox
+2026-01-17 11:09:50 INFO  tests.forms.CheckBoxTest - Clicking 'Sports checkbox'
+2026-01-17 11:09:50 INFO  pages.forms.PracticeFormPage - Clicking 'Reading' checkbox
+2026-01-17 11:09:50 INFO  tests.forms.CheckBoxTest - Clicking 'Reading checkbox'
+2026-01-17 11:09:50 INFO  pages.forms.PracticeFormPage - Clicking 'Music' checkbox
+2026-01-17 11:09:50 INFO  tests.forms.CheckBoxTest - Clicking 'Music checkbox'
+2026-01-17 11:09:50 INFO  pages.forms.PracticeFormPage - Unclicking 'Reading' checkbox
+2026-01-17 11:09:50 INFO  tests.forms.CheckBoxTest - Unclicking 'Reading checkbox'
+2026-01-17 11:09:51 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:09:51 INFO  base.BaseTest - Closing browser
+2026-01-17 11:09:54 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:09:56 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:10:02 INFO  tests.forms.RadioButtonTest - Test starting: testRadioButton
+2026-01-17 11:10:02 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:10:02 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-17 11:10:02 INFO  tests.forms.RadioButtonTest - Navigating to Web Tables page
+2026-01-17 11:10:02 INFO  pages.forms.PracticeFormPage - Clicking female radio button
+2026-01-17 11:10:02 INFO  tests.forms.RadioButtonTest - Clicking Female radio button
+2026-01-17 11:10:02 INFO  tests.forms.RadioButtonTest - Assertion passed
+2026-01-17 11:10:02 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:10:02 INFO  base.BaseTest - Closing browser
+2026-01-17 11:10:05 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:10:07 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:10:08 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-01-17 11:10:08 INFO  pages.HomePage - Navigating to Elements page
+2026-01-17 11:10:14 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-01-17 11:10:14 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-01-17 11:10:14 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-01-17 11:10:14 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-01-17 11:10:14 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-01-17 11:10:14 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-01-17 11:10:14 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-01-17 11:10:15 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-01-17 11:10:15 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-01-17 11:10:15 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-01-17 11:10:15 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-01-17 11:10:15 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-01-17 11:10:15 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-01-17 11:10:15 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-01-17 11:10:15 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:10:15 INFO  base.BaseTest - Closing browser
+2026-01-17 11:10:18 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:10:20 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:10:26 INFO  tests.elements.LinksTest - Test starting: testLink
+2026-01-17 11:10:26 INFO  pages.HomePage - Navigating to Elements page
+2026-01-17 11:10:26 INFO  pages.elements.ElementsPage - Clicking Links menu item
+2026-01-17 11:10:26 INFO  tests.elements.LinksTest - Navigating to Links page
+2026-01-17 11:10:26 INFO  pages.elements.LinksPage - Clicking 'Not Found' link
+2026-01-17 11:10:26 INFO  tests.elements.LinksTest - Triggering Not Found link
+2026-01-17 11:10:26 INFO  pages.elements.LinksPage - Retrieving link response text
+2026-01-17 11:10:29 INFO  tests.elements.LinksTest - Assertion passed
+2026-01-17 11:10:29 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:10:29 INFO  base.BaseTest - Closing browser
+2026-01-17 11:10:32 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:10:34 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:10:40 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:10:40 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:10:40 INFO  base.BaseTest - Closing browser
+2026-01-17 11:11:26 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:11:28 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:11:34 INFO  tests.forms.CheckBoxTest - Test starting: testCheckBox
+2026-01-17 11:11:34 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:11:34 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-17 11:11:34 INFO  tests.forms.CheckBoxTest - Navigating to Web Tables page
+2026-01-17 11:11:34 INFO  tests.forms.CheckBoxTest - Selecting hobbies
+2026-01-17 11:11:34 INFO  pages.forms.PracticeFormPage - Clicking 'Sports' checkbox
+2026-01-17 11:11:34 INFO  tests.forms.CheckBoxTest - Clicking 'Sports checkbox'
+2026-01-17 11:11:34 INFO  pages.forms.PracticeFormPage - Clicking 'Reading' checkbox
+2026-01-17 11:11:34 INFO  tests.forms.CheckBoxTest - Clicking 'Reading checkbox'
+2026-01-17 11:11:34 INFO  pages.forms.PracticeFormPage - Clicking 'Music' checkbox
+2026-01-17 11:11:34 INFO  tests.forms.CheckBoxTest - Clicking 'Music checkbox'
+2026-01-17 11:11:34 INFO  pages.forms.PracticeFormPage - Unclicking 'Reading' checkbox
+2026-01-17 11:11:34 INFO  tests.forms.CheckBoxTest - Unclicking 'Reading checkbox'
+2026-01-17 11:11:34 INFO  tests.forms.CheckBoxTest - Assertion passed
+2026-01-17 11:11:34 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:11:34 INFO  base.BaseTest - Closing browser
+2026-01-17 11:11:37 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:11:39 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:11:45 INFO  tests.forms.RadioButtonTest - Test starting: testRadioButton
+2026-01-17 11:11:45 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:11:45 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-17 11:11:45 INFO  tests.forms.RadioButtonTest - Navigating to Web Tables page
+2026-01-17 11:11:45 INFO  pages.forms.PracticeFormPage - Clicking female radio button
+2026-01-17 11:11:45 INFO  tests.forms.RadioButtonTest - Clicking Female radio button
+2026-01-17 11:11:45 INFO  tests.forms.RadioButtonTest - Assertion passed
+2026-01-17 11:11:45 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:11:45 INFO  base.BaseTest - Closing browser
+2026-01-17 11:11:48 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:11:50 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:11:50 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-01-17 11:11:50 INFO  pages.HomePage - Navigating to Elements page
+2026-01-17 11:11:56 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-01-17 11:11:56 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-01-17 11:11:56 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-01-17 11:11:56 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-01-17 11:11:56 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-01-17 11:11:56 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-01-17 11:11:56 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-01-17 11:11:56 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-01-17 11:11:56 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-01-17 11:11:56 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-01-17 11:11:56 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-01-17 11:11:56 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-01-17 11:11:56 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-01-17 11:11:56 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-01-17 11:11:56 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:11:56 INFO  base.BaseTest - Closing browser
+2026-01-17 11:12:00 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:12:01 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:12:06 INFO  tests.elements.LinksTest - Test starting: testLink
+2026-01-17 11:12:06 INFO  pages.HomePage - Navigating to Elements page
+2026-01-17 11:12:07 INFO  pages.elements.ElementsPage - Clicking Links menu item
+2026-01-17 11:12:07 INFO  tests.elements.LinksTest - Navigating to Links page
+2026-01-17 11:12:07 INFO  pages.elements.LinksPage - Clicking 'Not Found' link
+2026-01-17 11:12:07 INFO  tests.elements.LinksTest - Triggering Not Found link
+2026-01-17 11:12:07 INFO  pages.elements.LinksPage - Retrieving link response text
+2026-01-17 11:12:10 INFO  tests.elements.LinksTest - Assertion passed
+2026-01-17 11:12:10 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:12:10 INFO  base.BaseTest - Closing browser
+2026-01-17 11:12:13 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:12:15 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:12:16 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:12:21 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:12:21 INFO  base.BaseTest - Closing browser
+2026-01-17 11:14:50 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:14:53 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:14:54 INFO  tests.forms.CheckBoxTest - Test starting: testCheckBox
+2026-01-17 11:14:54 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:15:01 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-17 11:15:01 INFO  tests.forms.CheckBoxTest - Navigating to Web Tables page
+2026-01-17 11:15:01 INFO  tests.forms.CheckBoxTest - Selecting hobbies
+2026-01-17 11:15:01 INFO  pages.forms.PracticeFormPage - Clicking 'Sports' checkbox
+2026-01-17 11:15:01 INFO  tests.forms.CheckBoxTest - Clicking 'Sports checkbox'
+2026-01-17 11:15:01 INFO  pages.forms.PracticeFormPage - Clicking 'Reading' checkbox
+2026-01-17 11:15:01 INFO  tests.forms.CheckBoxTest - Clicking 'Reading checkbox'
+2026-01-17 11:15:01 INFO  pages.forms.PracticeFormPage - Clicking 'Music' checkbox
+2026-01-17 11:15:01 INFO  tests.forms.CheckBoxTest - Clicking 'Music checkbox'
+2026-01-17 11:15:01 INFO  pages.forms.PracticeFormPage - Unclicking 'Reading' checkbox
+2026-01-17 11:15:01 INFO  tests.forms.CheckBoxTest - Unclicking 'Reading checkbox'
+2026-01-17 11:15:02 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:15:02 INFO  base.BaseTest - Closing browser
+2026-01-17 11:15:05 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:15:06 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:15:11 INFO  tests.forms.RadioButtonTest - Test starting: testRadioButton
+2026-01-17 11:15:11 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:15:12 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-17 11:15:12 INFO  tests.forms.RadioButtonTest - Navigating to Web Tables page
+2026-01-17 11:15:12 INFO  pages.forms.PracticeFormPage - Clicking female radio button
+2026-01-17 11:15:12 INFO  tests.forms.RadioButtonTest - Clicking Female radio button
+2026-01-17 11:15:12 INFO  tests.forms.RadioButtonTest - Assertion passed
+2026-01-17 11:15:12 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:15:12 INFO  base.BaseTest - Closing browser
+2026-01-17 11:15:15 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:15:17 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:15:22 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-01-17 11:15:22 INFO  pages.HomePage - Navigating to Elements page
+2026-01-17 11:15:22 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-01-17 11:15:22 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-01-17 11:15:22 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-01-17 11:15:22 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-01-17 11:15:22 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-01-17 11:15:22 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-01-17 11:15:22 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-01-17 11:15:22 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-01-17 11:15:22 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-01-17 11:15:22 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-01-17 11:15:22 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-01-17 11:15:23 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-01-17 11:15:23 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-01-17 11:15:23 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-01-17 11:15:23 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:15:23 INFO  base.BaseTest - Closing browser
+2026-01-17 11:15:26 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:15:27 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:15:36 INFO  tests.elements.LinksTest - Test starting: testLink
+2026-01-17 11:15:36 INFO  pages.HomePage - Navigating to Elements page
+2026-01-17 11:15:36 INFO  pages.elements.ElementsPage - Clicking Links menu item
+2026-01-17 11:15:36 INFO  tests.elements.LinksTest - Navigating to Links page
+2026-01-17 11:15:36 INFO  pages.elements.LinksPage - Clicking 'Not Found' link
+2026-01-17 11:15:36 INFO  tests.elements.LinksTest - Triggering Not Found link
+2026-01-17 11:15:36 INFO  pages.elements.LinksPage - Retrieving link response text
+2026-01-17 11:15:39 INFO  tests.elements.LinksTest - Assertion passed
+2026-01-17 11:15:39 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:15:39 INFO  base.BaseTest - Closing browser
+2026-01-17 11:15:42 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:15:44 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:15:51 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:15:51 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:15:51 INFO  base.BaseTest - Closing browser
+2026-01-17 11:20:23 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:20:27 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:20:33 INFO  tests.forms.CheckBoxTest - Test starting: testCheckBox
+2026-01-17 11:20:33 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:20:33 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-17 11:20:33 INFO  tests.forms.CheckBoxTest - Navigating to Web Tables page
+2026-01-17 11:20:33 INFO  tests.forms.CheckBoxTest - Selecting hobbies
+2026-01-17 11:20:33 INFO  pages.forms.PracticeFormPage - Clicking 'Sports' checkbox
+2026-01-17 11:20:33 INFO  tests.forms.CheckBoxTest - Clicking 'Sports checkbox'
+2026-01-17 11:20:33 INFO  pages.forms.PracticeFormPage - Clicking 'Reading' checkbox
+2026-01-17 11:20:33 INFO  tests.forms.CheckBoxTest - Clicking 'Reading checkbox'
+2026-01-17 11:20:33 INFO  pages.forms.PracticeFormPage - Clicking 'Music' checkbox
+2026-01-17 11:20:33 INFO  tests.forms.CheckBoxTest - Clicking 'Music checkbox'
+2026-01-17 11:20:33 INFO  pages.forms.PracticeFormPage - Unclicking 'Reading' checkbox
+2026-01-17 11:20:33 INFO  tests.forms.CheckBoxTest - Unclicking 'Reading checkbox'
+2026-01-17 11:20:34 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:20:34 INFO  base.BaseTest - Closing browser
+2026-01-17 11:20:37 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:20:39 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:20:46 INFO  tests.forms.RadioButtonTest - Test starting: testRadioButton
+2026-01-17 11:20:46 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:20:46 INFO  pages.forms.FormsPage - Clicking Practice Form menu item
+2026-01-17 11:20:46 INFO  tests.forms.RadioButtonTest - Navigating to Web Tables page
+2026-01-17 11:20:46 INFO  pages.forms.PracticeFormPage - Clicking female radio button
+2026-01-17 11:20:46 INFO  tests.forms.RadioButtonTest - Clicking Female radio button
+2026-01-17 11:20:46 INFO  tests.forms.RadioButtonTest - Assertion passed
+2026-01-17 11:20:46 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:20:46 INFO  base.BaseTest - Closing browser
+2026-01-17 11:20:49 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:20:51 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:20:58 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-01-17 11:20:58 INFO  pages.HomePage - Navigating to Elements page
+2026-01-17 11:20:58 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-01-17 11:20:58 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-01-17 11:20:58 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-01-17 11:20:58 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-01-17 11:20:58 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-01-17 11:20:59 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-01-17 11:20:59 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-01-17 11:20:59 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-01-17 11:20:59 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-01-17 11:20:59 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-01-17 11:20:59 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-01-17 11:20:59 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-01-17 11:20:59 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-01-17 11:20:59 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-01-17 11:20:59 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:20:59 INFO  base.BaseTest - Closing browser
+2026-01-17 11:21:02 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:21:04 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:21:04 INFO  tests.elements.LinksTest - Test starting: testLink
+2026-01-17 11:21:04 INFO  pages.HomePage - Navigating to Elements page
+2026-01-17 11:21:09 INFO  pages.elements.ElementsPage - Clicking Links menu item
+2026-01-17 11:21:09 INFO  tests.elements.LinksTest - Navigating to Links page
+2026-01-17 11:21:09 INFO  pages.elements.LinksPage - Clicking 'Not Found' link
+2026-01-17 11:21:10 INFO  tests.elements.LinksTest - Triggering Not Found link
+2026-01-17 11:21:10 INFO  pages.elements.LinksPage - Retrieving link response text
+2026-01-17 11:21:13 INFO  tests.elements.LinksTest - Assertion passed
+2026-01-17 11:21:13 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:21:13 INFO  base.BaseTest - Closing browser
+2026-01-17 11:21:16 INFO  base.BaseTest - Setting up WebDriver
+2026-01-17 11:21:17 INFO  base.BaseTest - Opening DemoQA homepage
+2026-01-17 11:21:23 INFO  pages.HomePage - Navigating to Forms page
+2026-01-17 11:21:23 INFO  base.BaseTest - Cleaning up test cookies
+2026-01-17 11:21:23 INFO  base.BaseTest - Closing browser

@@ -11,7 +11,7 @@ public class ExtentManager {
         if (extent == null) {
             ExtentSparkReporter reporter =
                     new ExtentSparkReporter("test-output/ExtentReport.html");
-            reporter.config().setReportName("DemoQA Automation Report");
+            reporter.config().setReportName("Amangeldykyzy Damilya's Report");
 
             extent = new ExtentReports();
             extent.attachReporter(reporter);

@@ -68,10 +68,16 @@ public class BaseTest {
 //        }
 //    }
 
-    @AfterMethod
-    public void afterEachTestMethod() {
-        System.out.println("Cleanup after test");
+    @AfterMethod(alwaysRun = true)
+    public void cleanup() {
+        if (driver != null) {
+            driver.manage().deleteAllCookies();
+        }
+        logger.info("Cleaning up test cookies");
     }
+
+
+
 
     @AfterClass
     public void tearDown() {
