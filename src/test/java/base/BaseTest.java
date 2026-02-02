@@ -1,109 +1,60 @@
 package base;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.testng.ITestResult;
-import org.testng.annotations.AfterMethod;
-import pages.HomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.BeforeClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import pages.HomePage;
+import utility.Utility;
 
 import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Paths;
-import java.sql.SQLOutput;
-import java.util.logging.FileHandler.*;
+import java.nio.file.Path;
+import java.nio.file.StandardCopyOption;
 
-import static base.BasePage.delay;
-import static utility.Utility.setUtilityDriver;
+public abstract class BaseTest {
 
-
-public class BaseTest {
-    private static final Logger logger =
-            LogManager.getLogger(BaseTest.class);
-
-    private WebDriver driver;
-    protected BasePage basePage;
+    protected WebDriver driver;
     protected HomePage homePage;
-    private String DEMOQA_URL = "https://demoqa.com/";
-
-
-    @BeforeClass
-    public void setUp() {
-        logger.info("Setting up WebDriver");
-        driver = new ChromeDriver();
-        driver.manage().window().maximize();
-    }
 
     @BeforeMethod
-    public void loadApp() {
-        logger.info("Opening DemoQA homepage");
-        driver.get(DEMOQA_URL);
-        basePage = new BasePage();
-        basePage.setDriver(driver);
-        setUtilityDriver();
-        homePage = new HomePage();
+    public void setUp() {
+        driver = new ChromeDriver();
+        driver.manage().window().maximize();
+        driver.get("https://demoqa.com");
+
+        homePage = new HomePage(driver);
     }
 
-//    @AfterMethod
-//    public void takeFailedResultScreenshot(ITestResult testResult) {
-//        TakesScreenshot screenshot = null;
-//        if (ITestResult.FAILURE == testResult.getStatus()) {
-//            screenshot = (TakesScreenshot) driver;
-//        }
-//        File source = screenshot.getScreenshotAs(OutputType.FILE);
-//        File destination = new File(System.getProperty("user.dir")+ "/resources/screenshots/("+
-//                java.time.LocalDate.now() +
-//                testResult.getName() + ".png");
-//        try{
-//            FileHandler.copy(source, destination);
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//    }
-
-    @AfterMethod(alwaysRun = true)
-    public void cleanup() {
-        if (driver != null) {
-            driver.manage().deleteAllCookies();
-        }
-        logger.info("Cleaning up test cookies");
-    }
-
-
-
-
-    @AfterClass
+    @AfterMethod
     public void tearDown() {
-        logger.info("Closing browser");
-        delay(3000);
-        driver.quit();
+        Utility.delay(1000);
+        if (driver != null) {
+            driver.quit();
+        }
     }
 
     public String takeScreenshot(String testName) {
-        String timestamp = String.valueOf(System.currentTimeMillis());
-        String path = "screenshots/" + testName + "_" + timestamp + ".png";
-
-        TakesScreenshot ts = (TakesScreenshot) driver;
-        File src = ts.getScreenshotAs(OutputType.FILE);
+        if (driver == null) return null;
 
         try {
-            Files.createDirectories(Paths.get("screenshots"));
-            Files.copy(src.toPath(), Paths.get(path));
+            File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+
+            // папка для скриншотов внутри target
+            Path screenshotsDir = Path.of("target", "screenshots");
+            Files.createDirectories(screenshotsDir);
+
+            String safeName = testName == null ? "test" : testName.replaceAll("[^a-zA-Z0-9._-]", "_");
+            Path dest = screenshotsDir.resolve(safeName + ".png");
+
+            Files.copy(src.toPath(), dest, StandardCopyOption.REPLACE_EXISTING);
+            return dest.toString();
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new RuntimeException("Failed to save screenshot", e);
         }
-
-        return path;
     }
-
-
-
 
 }

@@ -1,14 +1,16 @@
 package base;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class BasePage {
-    public static WebDriver driver;
+public abstract class BasePage {
 
-    public void setDriver(WebDriver driver) {
-        BasePage.driver = driver;
+    protected final WebDriver driver;
+
+    public BasePage(WebDriver driver) {
+        this.driver = driver;
     }
 
     protected WebElement find(By locator) {
@@ -16,19 +18,24 @@ public class BasePage {
     }
 
     protected void set(By locator, String text) {
-        find(locator).clear();
-        find(locator).sendKeys(text);
+        WebElement el = find(locator);
+        el.clear();
+        el.sendKeys(text);
     }
 
     protected void click(By locator) {
         find(locator).click();
     }
 
-    public static void delay(int milliseconds) {
-        try {
-            Thread.sleep(milliseconds);
-        } catch(InterruptedException exc) {
-            exc.printStackTrace();
-        }
+    protected void pressKey(By locator, Keys key) {
+        find(locator).sendKeys(key);
+    }
+
+    protected boolean isDisplayed(By locator) {
+        return find(locator).isDisplayed();
+    }
+
+    public WebDriver getDriver() {
+        return driver;
     }
 }

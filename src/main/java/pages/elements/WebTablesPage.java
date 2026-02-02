@@ -1,14 +1,20 @@
 package pages.elements;
 
+import base.BasePage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import pages.forms.FormsPage;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import pages.HomePage;
+import utility.JavaScriptUtils;
 
-import static utility.JavaScriptUtils.clickJS;
-import static utility.JavaScriptUtils.scrollToElementJS;
 
-public class WebTablesPage extends ElementsPage{
+public class WebTablesPage extends HomePage {
+
+    public WebTablesPage(WebDriver driver) {
+        super(driver);
+    }
     private static final Logger logger =
             LogManager.getLogger(WebTablesPage.class);
 
@@ -20,8 +26,9 @@ public class WebTablesPage extends ElementsPage{
 
     public void clickEditButton(String email) {
         logger.info("Clicking edit table button");
-        By editButton = By.xpath("//div[text()='"+ email +"']//following::span[@title='Edit']");
-        scrollToElementJS(editButton);
+        By editButton = By.id("edit-record-1");
+        WebElement editBtn = find(editButton);
+        JavaScriptUtils.scrollToElementJS(driver, editBtn);
         click(editButton);
     }
 

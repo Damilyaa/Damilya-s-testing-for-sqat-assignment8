@@ -3,21 +3,19 @@ package listeners;
 import base.BaseTest;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import utility.ExtentManager;
 
-import java.io.IOException;
-
 public class TestListener implements ITestListener {
 
-    private static ExtentReports extent = ExtentManager.getExtent();
-    private static ThreadLocal<ExtentTest> test = new ThreadLocal<>();
+    private static final ExtentReports extent = ExtentManager.getExtent();
+    private static final ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
     @Override
     public void onTestStart(ITestResult result) {
-        ExtentTest extentTest =
-                extent.createTest(result.getMethod().getMethodName());
+        ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName());
         test.set(extentTest);
     }
 
@@ -27,21 +25,33 @@ public class TestListener implements ITestListener {
     }
 
     @Override
-    public void onTestFailure (ITestResult result) {
+    public void onTestFailure(ITestResult result) {
         test.get().fail(result.getThrowable());
 
-        String screenshotPath =
-                ((BaseTest) result.getInstance())
-                        .takeScreenshot(result.getMethod().getMethodName());
+        Object instance = result.getInstance();
 
-        String relativePath = "../" + screenshotPath.replace("\\", "/");
+        if (instance instanceof BaseTest baseTest) {
+            String screenshotPath = baseTest.takeScreenshot(result.getMethod().getMethodName());
 
-        test.get().addScreenCaptureFromPath(relativePath);
+            if (screenshotPath != null) {
+                String relativePath = "../" + screenshotPath.replace("\\", "/");
+                try {
+                    test.get().addScreenCaptureFromPath(relativePath);
+                } catch (Exception e) {
+                    test.get().warning("Failed to attach screenshot: " + e.getMessage());
+                }
+            } else {
+                test.get().warning("Screenshot path is null (driver may be null).");
+            }
+        } else {
+            // Безопасно: тест не наследуется от BaseTest => не пытаемся кастить
+            test.get().warning("No screenshot captured: test class does not extend BaseTest. Actual: "
+                    + instance.getClass().getName());
+        }
     }
 
-
     @Override
-    public void onFinish(org.testng.ITestContext context) {
+    public void onFinish(ITestContext context) {
         extent.flush();
     }
 }
