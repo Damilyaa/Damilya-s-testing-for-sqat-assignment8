@@ -1,47 +1,24 @@
-# DemoQA Selenium Test Framework
+# Assignment 8 – BDD
 
-## Overview
-This project is a Selenium WebDriver automation framework for [DemoQA](https://demoqa.com/) using **Java**, **TestNG**, and **Page Object Model (POM)**.  
-It is designed to be maintainable, extensible, and easy to run in CI/CD pipelines.
+This project contains automated UI tests for **Assignment 8** using **BDD (Cucumber)** with **Selenium**, **Java**, and **TestNG**.
 
-### Features
-- ChromeDriver WebDriver setup
-- Page Object Model for reusable UI interactions
-- Test lifecycle management using TestNG annotations (`@BeforeClass`, `@BeforeMethod`, `@Test` , `@AfterMethod`, `@AfterClass`)
-- Automatic screenshot capture on test failure
-- Logging using Log4j2
-- ExtentReports for HTML reporting
-- Clean separation of test logic, page objects, and utilities
+## Covered Features
+The following functionalities are tested:
 
-## Prerequisites
-- Java JDK 11+
-- Maven 3+
-- Chrome browser installed
-- ChromeDriver on system PATH (or managed automatically via WebDriverManager)
+- **Login** – user authentication flow
+- **Search** – searching data in the application
+- **Web Tables Edit** – editing an existing row and validating updated data
+
+## Technologies
+- Java
+- Selenium WebDriver
+- Cucumber (BDD)
+- TestNG
+- Maven
 
 ## How to Run Tests
+Run all tests using Maven:
 
-1. **Run all tests**
 ```bash
 mvn clean test
 ```
-
-2. **Run a specific test class**
-```bash
-mvn clean test -Dtest=HomePageTests
-```
-3. **Test reports**
-ExtentReports HTML: test-output/ExtentReports/index.html
-Screenshots for failed tests: test-output/screenshots/
-
-## Test Lifecycle
-
-| Annotation        | Purpose |
-|------------------|---------|
-| `@BeforeClass`    | Initialize WebDriver once per test class |
-| `@BeforeMethod`   | Navigate to the homepage, initialize page objects |
-| `@AfterMethod`    | Clean cookies to ensure test independence |
-| `@AfterClass`     | Quit the browser after all tests in the class |
-| Listener          | Capture screenshots on test failure and attach to ExtentReports |
-
-## **Amangeldykyzy Damilya SE-2327**
