@@ -582,3 +582,341 @@
 2026-02-02 21:46:04 INFO  pages.elements.WebTablesPage - Setting Age field
 2026-02-02 21:46:04 INFO  pages.elements.WebTablesPage - Clicking Submit button
 2026-02-02 21:46:04 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-02 21:58:10 INFO  pages.SearchPage - Entering search query: Selenium WebDriver
+2026-02-02 21:58:11 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-02 21:58:11 INFO  pages.SearchPage - Checking results visible
+2026-02-02 21:58:21 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-02-02 21:58:22 INFO  pages.HomePage - Navigating to Elements page
+2026-02-02 21:58:23 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-02 21:58:23 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-02-02 21:58:23 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-02 21:58:23 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-02-02 21:58:23 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-02 21:58:23 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-02-02 21:58:23 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-02 21:58:23 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-02-02 21:58:23 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-02 21:58:23 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-02-02 21:58:23 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-02 21:58:23 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-02-02 21:58:23 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-02 21:58:23 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-02-02 21:58:25 INFO  base.BaseTestLogin - Opening SauceDemo login page
+2026-02-02 21:58:27 INFO  tests.login.LoginTest - Test starting: testLogin
+2026-02-02 21:58:27 INFO  tests.login.LoginTest - Navigating to Login page
+2026-02-02 21:58:27 INFO  tests.login.LoginTest - Setting username
+2026-02-02 21:58:27 INFO  pages.LoginPage - Setting username field
+2026-02-02 21:58:27 INFO  tests.login.LoginTest - Setting password
+2026-02-02 21:58:27 INFO  pages.LoginPage - Setting password field
+2026-02-02 21:58:27 INFO  tests.login.LoginTest - Clicking Login button
+2026-02-02 21:58:27 INFO  pages.LoginPage - Clicking login button
+2026-02-02 21:58:27 INFO  tests.login.LoginTest - Assertion passed
+2026-02-02 21:58:27 INFO  base.BaseTestLogin - Closing browser
+2026-02-02 21:58:32 INFO  pages.LoginPage - Setting username field
+2026-02-02 21:58:32 INFO  pages.LoginPage - Setting password field
+2026-02-02 21:58:32 INFO  pages.LoginPage - Clicking login button
+2026-02-02 21:58:35 INFO  pages.SearchPage - Entering search query: selenium
+2026-02-02 21:58:35 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-02 21:58:35 INFO  pages.SearchPage - Checking results visible
+2026-02-02 21:58:54 INFO  pages.HomePage - Navigating to Elements page
+2026-02-02 21:58:54 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-02 21:58:54 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-02 21:58:54 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-02 21:58:54 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-02 21:58:54 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-02 21:58:54 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-02 21:58:54 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-02 22:01:38 INFO  pages.SearchPage - Entering search query: Selenium WebDriver
+2026-02-02 22:01:38 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-02 22:01:38 INFO  pages.SearchPage - Checking results visible
+2026-02-02 22:01:50 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-02-02 22:01:50 INFO  pages.HomePage - Navigating to Elements page
+2026-02-02 22:01:50 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-02 22:01:50 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-02-02 22:01:50 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-02 22:01:51 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-02-02 22:01:51 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-02 22:01:51 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-02-02 22:01:51 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-02 22:01:51 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-02-02 22:01:51 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-02 22:01:51 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-02-02 22:01:51 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-02 22:01:52 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-02-02 22:01:52 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-02 22:01:52 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-02-02 22:01:54 INFO  base.BaseTestLogin - Opening SauceDemo login page
+2026-02-02 22:01:57 INFO  tests.login.LoginTest - Test starting: testLogin
+2026-02-02 22:01:57 INFO  tests.login.LoginTest - Navigating to Login page
+2026-02-02 22:01:57 INFO  tests.login.LoginTest - Setting username
+2026-02-02 22:01:57 INFO  pages.LoginPage - Setting username field
+2026-02-02 22:01:57 INFO  tests.login.LoginTest - Setting password
+2026-02-02 22:01:57 INFO  pages.LoginPage - Setting password field
+2026-02-02 22:01:57 INFO  tests.login.LoginTest - Clicking Login button
+2026-02-02 22:01:57 INFO  pages.LoginPage - Clicking login button
+2026-02-02 22:01:57 INFO  tests.login.LoginTest - Assertion passed
+2026-02-02 22:01:57 INFO  base.BaseTestLogin - Closing browser
+2026-02-02 22:02:03 INFO  pages.SearchPage - Entering search query: selenium
+2026-02-02 22:02:03 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-02 22:02:03 INFO  pages.SearchPage - Checking results visible
+2026-02-02 22:02:21 INFO  pages.HomePage - Navigating to Elements page
+2026-02-02 22:02:22 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-02 22:02:22 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-02 22:02:22 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-02 22:02:22 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-02 22:02:22 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-02 22:02:22 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-02 22:02:22 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-02 22:03:27 INFO  pages.SearchPage - Entering search query: Selenium WebDriver
+2026-02-02 22:03:27 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-02 22:03:27 INFO  pages.SearchPage - Checking results visible
+2026-02-02 22:03:31 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-02-02 22:03:40 INFO  pages.HomePage - Navigating to Elements page
+2026-02-02 22:03:41 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-02 22:03:41 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-02-02 22:03:41 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-02 22:03:41 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-02-02 22:03:41 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-02 22:03:41 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-02-02 22:03:41 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-02 22:03:41 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-02-02 22:03:41 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-02 22:03:41 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-02-02 22:03:41 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-02 22:03:41 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-02-02 22:03:41 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-02 22:03:41 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-02-02 22:03:43 INFO  base.BaseTestLogin - Opening SauceDemo login page
+2026-02-02 22:03:44 INFO  tests.login.LoginTest - Test starting: testLogin
+2026-02-02 22:03:44 INFO  tests.login.LoginTest - Navigating to Login page
+2026-02-02 22:03:44 INFO  tests.login.LoginTest - Setting username
+2026-02-02 22:03:44 INFO  pages.LoginPage - Setting username field
+2026-02-02 22:03:52 INFO  tests.login.LoginTest - Setting password
+2026-02-02 22:03:52 INFO  pages.LoginPage - Setting password field
+2026-02-02 22:03:52 INFO  tests.login.LoginTest - Clicking Login button
+2026-02-02 22:03:52 INFO  pages.LoginPage - Clicking login button
+2026-02-02 22:03:52 INFO  tests.login.LoginTest - Assertion passed
+2026-02-02 22:03:52 INFO  base.BaseTestLogin - Closing browser
+2026-02-02 22:03:58 INFO  pages.LoginPage - Setting username field
+2026-02-02 22:03:58 INFO  pages.LoginPage - Setting password field
+2026-02-02 22:03:58 INFO  pages.LoginPage - Clicking login button
+2026-02-02 22:04:02 INFO  pages.SearchPage - Entering search query: selenium
+2026-02-02 22:04:02 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-02 22:04:02 INFO  pages.SearchPage - Checking results visible
+2026-02-02 22:04:07 INFO  pages.HomePage - Navigating to Elements page
+2026-02-02 22:04:18 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-02 22:04:18 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-02 22:04:18 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-02 22:04:18 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-02 22:04:18 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-02 22:04:18 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-02 22:04:18 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-03 16:04:06 INFO  pages.SearchPage - Entering search query: Selenium WebDriver
+2026-02-03 16:04:06 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 16:04:06 INFO  pages.SearchPage - Checking results visible
+2026-02-03 16:04:15 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-02-03 16:04:17 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 16:04:17 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 16:04:17 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-02-03 16:04:17 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-03 16:04:17 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-02-03 16:04:17 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-03 16:04:17 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-02-03 16:04:17 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-03 16:04:17 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-02-03 16:04:17 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-03 16:04:17 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-02-03 16:04:17 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-03 16:04:17 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-02-03 16:04:17 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-03 16:04:18 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-02-03 16:04:20 INFO  base.BaseTestLogin - Opening SauceDemo login page
+2026-02-03 16:04:21 INFO  tests.login.LoginTest - Test starting: testLogin
+2026-02-03 16:04:21 INFO  tests.login.LoginTest - Navigating to Login page
+2026-02-03 16:04:21 INFO  tests.login.LoginTest - Setting username
+2026-02-03 16:04:21 INFO  pages.LoginPage - Setting username field
+2026-02-03 16:04:21 INFO  tests.login.LoginTest - Setting password
+2026-02-03 16:04:21 INFO  pages.LoginPage - Setting password field
+2026-02-03 16:04:21 INFO  tests.login.LoginTest - Clicking Login button
+2026-02-03 16:04:21 INFO  pages.LoginPage - Clicking login button
+2026-02-03 16:04:21 INFO  tests.login.LoginTest - Assertion passed
+2026-02-03 16:04:21 INFO  base.BaseTestLogin - Closing browser
+2026-02-03 16:04:24 INFO  pages.LoginPage - Setting username field
+2026-02-03 16:04:24 INFO  pages.LoginPage - Setting password field
+2026-02-03 16:04:24 INFO  pages.LoginPage - Clicking login button
+2026-02-03 16:04:27 INFO  pages.SearchPage - Entering search query: selenium
+2026-02-03 16:04:27 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 16:04:27 INFO  pages.SearchPage - Checking results visible
+2026-02-03 16:04:36 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 16:04:36 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 16:04:36 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-03 16:04:36 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-03 16:04:36 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-03 16:04:37 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-03 16:04:37 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-03 16:04:37 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-03 17:38:39 INFO  pages.SearchPage - Entering search query: Selenium WebDriver
+2026-02-03 17:38:40 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 17:38:40 INFO  pages.SearchPage - Checking results visible
+2026-02-03 17:38:48 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-02-03 17:38:49 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 17:38:49 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 17:38:49 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-02-03 17:38:49 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-03 17:38:49 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-02-03 17:38:49 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-03 17:38:49 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-02-03 17:38:49 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-03 17:38:50 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-02-03 17:38:50 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-03 17:38:50 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-02-03 17:38:50 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-03 17:38:50 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-02-03 17:38:50 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-03 17:38:50 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-02-03 17:38:52 INFO  base.BaseTestLogin - Opening SauceDemo login page
+2026-02-03 17:38:53 INFO  tests.login.LoginTest - Test starting: testLogin
+2026-02-03 17:38:53 INFO  tests.login.LoginTest - Navigating to Login page
+2026-02-03 17:38:53 INFO  tests.login.LoginTest - Setting username
+2026-02-03 17:38:53 INFO  pages.LoginPage - Setting username field
+2026-02-03 17:38:53 INFO  tests.login.LoginTest - Setting password
+2026-02-03 17:38:53 INFO  pages.LoginPage - Setting password field
+2026-02-03 17:38:53 INFO  tests.login.LoginTest - Clicking Login button
+2026-02-03 17:38:53 INFO  pages.LoginPage - Clicking login button
+2026-02-03 17:38:53 INFO  tests.login.LoginTest - Assertion passed
+2026-02-03 17:38:53 INFO  base.BaseTestLogin - Closing browser
+2026-02-03 17:38:56 INFO  pages.LoginPage - Setting username field
+2026-02-03 17:38:56 INFO  pages.LoginPage - Setting password field
+2026-02-03 17:38:56 INFO  pages.LoginPage - Clicking login button
+2026-02-03 17:38:59 INFO  pages.SearchPage - Entering search query: selenium
+2026-02-03 17:38:59 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 17:38:59 INFO  pages.SearchPage - Checking results visible
+2026-02-03 17:39:08 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 17:39:08 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 17:41:19 INFO  pages.SearchPage - Entering search query: Selenium WebDriver
+2026-02-03 17:41:19 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 17:41:21 INFO  pages.SearchPage - Checking results visible
+2026-02-03 17:41:25 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-02-03 17:41:30 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 17:41:30 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 17:41:31 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-02-03 17:41:31 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-03 17:41:31 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-02-03 17:41:31 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-03 17:41:31 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-02-03 17:41:31 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-03 17:41:31 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-02-03 17:41:31 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-03 17:41:31 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-02-03 17:41:31 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-03 17:41:32 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-02-03 17:41:32 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-03 17:41:32 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-02-03 17:41:34 INFO  base.BaseTestLogin - Opening SauceDemo login page
+2026-02-03 17:41:35 INFO  tests.login.LoginTest - Test starting: testLogin
+2026-02-03 17:41:35 INFO  tests.login.LoginTest - Navigating to Login page
+2026-02-03 17:41:35 INFO  tests.login.LoginTest - Setting username
+2026-02-03 17:41:35 INFO  pages.LoginPage - Setting username field
+2026-02-03 17:41:36 INFO  tests.login.LoginTest - Setting password
+2026-02-03 17:41:36 INFO  pages.LoginPage - Setting password field
+2026-02-03 17:41:36 INFO  tests.login.LoginTest - Clicking Login button
+2026-02-03 17:41:36 INFO  pages.LoginPage - Clicking login button
+2026-02-03 17:41:36 INFO  tests.login.LoginTest - Assertion passed
+2026-02-03 17:41:36 INFO  base.BaseTestLogin - Closing browser
+2026-02-03 17:41:39 INFO  pages.LoginPage - Setting username field
+2026-02-03 17:41:39 INFO  pages.LoginPage - Setting password field
+2026-02-03 17:41:39 INFO  pages.LoginPage - Clicking login button
+2026-02-03 17:41:41 INFO  pages.SearchPage - Entering search query: selenium
+2026-02-03 17:41:41 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 17:41:41 INFO  pages.SearchPage - Checking results visible
+2026-02-03 17:41:50 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 17:41:50 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 17:41:50 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-03 17:41:50 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-03 17:41:50 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-03 17:41:50 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-03 17:41:50 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-03 17:41:50 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-03 17:46:40 INFO  pages.SearchPage - Entering search query: Selenium WebDriver
+2026-02-03 17:46:40 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 17:46:41 INFO  pages.SearchPage - Checking results visible
+2026-02-03 17:46:45 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-02-03 17:46:50 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 17:46:50 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 17:46:50 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-02-03 17:46:50 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-03 17:46:50 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-02-03 17:46:50 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-03 17:46:51 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-02-03 17:46:51 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-03 17:46:51 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-02-03 17:46:51 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-03 17:46:51 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-02-03 17:46:51 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-03 17:46:51 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-02-03 17:46:51 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-03 17:46:51 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-02-03 17:46:54 INFO  base.BaseTestLogin - Opening SauceDemo login page
+2026-02-03 17:46:54 INFO  tests.login.LoginTest - Test starting: testLogin
+2026-02-03 17:46:54 INFO  tests.login.LoginTest - Navigating to Login page
+2026-02-03 17:46:54 INFO  tests.login.LoginTest - Setting username
+2026-02-03 17:46:54 INFO  pages.LoginPage - Setting username field
+2026-02-03 17:46:55 INFO  tests.login.LoginTest - Setting password
+2026-02-03 17:46:55 INFO  pages.LoginPage - Setting password field
+2026-02-03 17:46:55 INFO  tests.login.LoginTest - Clicking Login button
+2026-02-03 17:46:55 INFO  pages.LoginPage - Clicking login button
+2026-02-03 17:46:55 INFO  tests.login.LoginTest - Assertion passed
+2026-02-03 17:46:55 INFO  base.BaseTestLogin - Closing browser
+2026-02-03 17:46:58 INFO  pages.LoginPage - Setting username field
+2026-02-03 17:46:58 INFO  pages.LoginPage - Setting password field
+2026-02-03 17:46:58 INFO  pages.LoginPage - Clicking login button
+2026-02-03 17:47:00 INFO  pages.SearchPage - Entering search query: selenium
+2026-02-03 17:47:00 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 17:47:00 INFO  pages.SearchPage - Checking results visible
+2026-02-03 17:47:06 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 17:47:11 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 17:47:11 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-03 17:48:56 INFO  pages.SearchPage - Entering search query: Selenium WebDriver
+2026-02-03 17:48:56 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 17:48:56 INFO  pages.SearchPage - Checking results visible
+2026-02-03 17:49:06 INFO  tests.elements.WebTablesTest - Test starting: testEditWebTable
+2026-02-03 17:49:07 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 17:49:07 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 17:49:07 INFO  tests.elements.WebTablesTest - Navigating to Web Tables page
+2026-02-03 17:49:07 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-03 17:49:07 INFO  tests.elements.WebTablesTest - Clicking edit button
+2026-02-03 17:49:07 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-03 17:49:07 INFO  tests.elements.WebTablesTest - Setting the First Name
+2026-02-03 17:49:07 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-03 17:49:07 INFO  tests.elements.WebTablesTest - Setting the Last Name
+2026-02-03 17:49:07 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-03 17:49:08 INFO  tests.elements.WebTablesTest - Setting the Age
+2026-02-03 17:49:08 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-03 17:49:08 INFO  tests.elements.WebTablesTest - Clicking Submit button
+2026-02-03 17:49:08 INFO  pages.elements.WebTablesPage - Retrieving First Name field text
+2026-02-03 17:49:08 INFO  tests.elements.WebTablesTest - Assertion passed
+2026-02-03 17:49:10 INFO  base.BaseTestLogin - Opening SauceDemo login page
+2026-02-03 17:49:11 INFO  tests.login.LoginTest - Test starting: testLogin
+2026-02-03 17:49:11 INFO  tests.login.LoginTest - Navigating to Login page
+2026-02-03 17:49:11 INFO  tests.login.LoginTest - Setting username
+2026-02-03 17:49:11 INFO  pages.LoginPage - Setting username field
+2026-02-03 17:49:12 INFO  tests.login.LoginTest - Setting password
+2026-02-03 17:49:12 INFO  pages.LoginPage - Setting password field
+2026-02-03 17:49:12 INFO  tests.login.LoginTest - Clicking Login button
+2026-02-03 17:49:12 INFO  pages.LoginPage - Clicking login button
+2026-02-03 17:49:12 INFO  tests.login.LoginTest - Assertion passed
+2026-02-03 17:49:12 INFO  base.BaseTestLogin - Closing browser
+2026-02-03 17:49:14 INFO  pages.LoginPage - Setting username field
+2026-02-03 17:49:14 INFO  pages.LoginPage - Setting password field
+2026-02-03 17:49:14 INFO  pages.LoginPage - Clicking login button
+2026-02-03 17:49:17 INFO  pages.SearchPage - Entering search query: selenium
+2026-02-03 17:49:17 INFO  pages.SearchPage - Submitting search (ENTER)
+2026-02-03 17:49:17 INFO  pages.SearchPage - Checking results visible
+2026-02-03 17:49:26 INFO  pages.HomePage - Navigating to Elements page
+2026-02-03 17:49:26 INFO  pages.elements.ElementsPage - Clicking Web Tables menu item
+2026-02-03 17:49:26 INFO  pages.elements.WebTablesPage - Clicking edit table button
+2026-02-03 17:49:26 INFO  pages.elements.WebTablesPage - Setting First Name field
+2026-02-03 17:49:26 INFO  pages.elements.WebTablesPage - Setting Last Name field
+2026-02-03 17:49:26 INFO  pages.elements.WebTablesPage - Setting Age field
+2026-02-03 17:49:26 INFO  pages.elements.WebTablesPage - Clicking Submit button
+2026-02-03 17:49:26 INFO  pages.elements.WebTablesPage - Retrieving First Name field text

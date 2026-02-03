@@ -16,7 +16,6 @@ public class BaseTestSearch {
         driver = new ChromeDriver();
         driver.get("https://www.google.com");
 
-        // ✅ ЭТО УБИРАЕТ NPE: BasePageSearch.driver null
         searchPage = new SearchPage(driver);
     }
 

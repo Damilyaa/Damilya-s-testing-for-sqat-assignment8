@@ -23,22 +23,18 @@ public class HomePage extends BasePage {
     public ElementsPage goToElements() {
         logger.info("Navigating to Elements page");
 
-        // 1) Убедимся, что мы точно на demoqa home
         if (!driver.getCurrentUrl().contains("demoqa.com")) {
             driver.get("https://demoqa.com");
         }
 
         var wait = new org.openqa.selenium.support.ui.WebDriverWait(driver, java.time.Duration.ofSeconds(15));
 
-        // 2) Ждём, что карточка Elements появится
         wait.until(org.openqa.selenium.support.ui.ExpectedConditions.presenceOfElementLocated(elementsCard));
         wait.until(org.openqa.selenium.support.ui.ExpectedConditions.elementToBeClickable(elementsCard));
 
-        // 3) Скроллим к элементу (JS)
         org.openqa.selenium.WebElement card = find(elementsCard);
         utility.JavaScriptUtils.scrollToElementJS(driver, card);
 
-        // 4) Кликаем (если обычный click не сработает — делаем JS click)
         try {
             click(elementsCard);
         } catch (Exception e) {

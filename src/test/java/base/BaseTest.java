@@ -43,7 +43,6 @@ public abstract class BaseTest {
         try {
             File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-            // папка для скриншотов внутри target
             Path screenshotsDir = Path.of("target", "screenshots");
             Files.createDirectories(screenshotsDir);
 

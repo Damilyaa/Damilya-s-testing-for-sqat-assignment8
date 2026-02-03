@@ -19,7 +19,6 @@ public class SearchPage extends BasePageSearch {
 
     private final By searchInput = By.name("q");
 
-    // Более стабильные локаторы для SERP
     private final By resultsContainer = By.cssSelector("div#search");
     private final By resultTitles = By.cssSelector("div#search h3");
 
@@ -42,9 +41,7 @@ public class SearchPage extends BasePageSearch {
 
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 
-        // 1) Иногда появляется consent - попробуем мягко закрыть (если есть)
         try {
-            // несколько вариантов текста кнопки на разных языках
             By acceptBtn = By.xpath(
                     "//button//*[normalize-space()='I agree' or normalize-space()='Accept all' or normalize-space()='Принять все' or normalize-space()='Согласен' or normalize-space()='Accept']"
             );
@@ -56,7 +53,6 @@ public class SearchPage extends BasePageSearch {
             // consent не показан — ок
         }
 
-        // 2) Ждём, что либо появился контейнер результатов, либо URL содержит q=
         wait.withTimeout(Duration.ofSeconds(10)).until(d -> {
             String url = d.getCurrentUrl();
             boolean hasQuery = url.contains("q=");
@@ -66,7 +62,6 @@ public class SearchPage extends BasePageSearch {
             return hasQuery || hasResultsContainer;
         });
 
-        // 3) Финальная проверка: либо есть результаты, либо хотя бы URL содержит q=
         boolean hasResults =
                 driver.findElements(By.cssSelector("#search h3")).size() > 0 ||
                         driver.findElements(By.cssSelector("#rso h3")).size() > 0;

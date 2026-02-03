@@ -21,7 +21,6 @@ public class LoginSteps {
     @When("I login with username {string} and password {string}")
     public void i_login_with_username_and_password(String username, String password) {
 
-        // map "valid_*" from feature to real SauceDemo credentials
         if ("valid_user".equals(username)) username = "standard_user";
         if ("valid_password".equals(password)) password = "secret_sauce";
 

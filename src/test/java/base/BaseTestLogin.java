@@ -21,7 +21,6 @@ public class BaseTestLogin {
         logger.info("Opening SauceDemo login page");
         driver.get("https://www.saucedemo.com/");
 
-        // ✅ ЭТО УБИРАЕТ NPE: BasePageLogin.driver null
         loginPage = new LoginPage(driver);
     }
 

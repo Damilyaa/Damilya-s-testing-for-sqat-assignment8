@@ -22,16 +22,21 @@ public class WebTablesSteps {
         webTablesPage = elementsPage.clickWebTables();
     }
 
-    @When("I edit the user with email {string} and set first name {string} last name {string} age {string}")
-    public void i_edit_the_user_with_email_and_set_first_name_last_name_age(
-            String email, String firstName, String lastName, String age) {
-
+    @When("I edit the user with email {string}")
+    public void i_edit_the_user_with_email(String email) {
         webTablesPage.clickEditButton(email);
+    }
+
+    @When("I set first name {string} last name {string} age {string}")
+    public void i_set_first_name_last_name_age(
+            String firstName, String lastName, String age) {
+
         webTablesPage.setFirstName(firstName);
         webTablesPage.setLastName(lastName);
         webTablesPage.setAge(age);
         webTablesPage.clickSubmitButton();
     }
+
 
     @Then("the table first name for email {string} should be {string}")
     public void the_table_first_name_for_email_should_be(String email, String expectedFirstName) {
